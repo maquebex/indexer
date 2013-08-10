@@ -5,8 +5,7 @@
   "scripts": {
     "start": "node app.js"
   },
-  "dependencies": {
-   "mongoose":"2.7.0", "express": "3.3.4",
+  "dependencies": { "mongoose":"2.7.0", "express": "3.3.4",
     "jade": "*",
     "less-middleware": "*"
   }
