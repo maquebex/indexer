@@ -1,4 +1,3 @@
-
 /**
  * Module dependencies.
  */
@@ -34,10 +33,13 @@ if ('development' == app.get('env')) {
 
 
 //connnect to database tfiApp created in mongoDB
- mongoose.connect("mongodb://localhost/tfiDB");
+ mongoose.connect("mongodb://maquebex:ryuamakusa@ds037698.mongolab.com:37698/tfidb")
 
 //create schema paraSchema which will store paragraphs.Each para has a para number and its content
- var paraSchema=new mongoose.Schema({
+ mongoose.connection.on('open',function(){
+	
+	console.log("connected");
+	var paraSchema=new mongoose.Schema({
  	id:Number,
  	content:String
  	
@@ -54,6 +56,8 @@ if ('development' == app.get('env')) {
 					console.log("count "+countPara);
 				});
 	});
+	
+});
 
 //load first page which allows user to enter paragraph 
 	app.get('/',function(req,res){
