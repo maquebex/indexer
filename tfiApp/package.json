@@ -5,8 +5,10 @@
   "scripts": {
     "start": "node app.js"
   },
-  "dependencies": {
-   "mongoose":"2.7.0", "express": "3.3.4",
+  "dependencies": {"mongodb":">=0.9.6-7",
+  "connect":"1.8.5", 
+  "mongoose":"2.7.0",
+  "express": "3.3.4",
     "jade": "*",
     "less-middleware": "*"
   }
