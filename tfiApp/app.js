@@ -56,14 +56,14 @@ if ('development' == app.get('env')) {
 	});
 
 //load first page which allows user to enter paragraph 
-app.get('/',function(req,res){
+	app.get('/',function(req,res){
 	var msg="<h2>Enter paragraph</h2><form method='post' action='send'>Content<br/><textarea name='content'></textarea><br/><input type='submit'/></form>";
 	
 	res.send(msg);
-});
+     });
 
 //on clicking submit the paragraph is persisted to database in table para using save method of mongoose.js
-app.post('/send',function(req,res){
+	app.post('/send',function(req,res){
 	
 	new para({
 		id:countPara,
@@ -79,7 +79,7 @@ app.post('/send',function(req,res){
 			        para.find({},function(err,docs){
 			        	console.log(countPara+"paras");
 			        	var data=docs[countPara-1].content;
-			        	res.render("searchpg.jade",{paraMsg:data});
+			        	res.render("searchpg.jade",{paraMsg:data});//display jade file rendered as html by server
 			        });
 					
 		}
@@ -89,6 +89,28 @@ app.post('/send',function(req,res){
 			
 	});
 
+//find keyword
+	app.get('/find',function(req,res){
+	
+	var keywrd=req.query.key;// extract parameter passed as keyword 
+	var resStr="";
+	//query database to reteieve all paras that contain keyword
+	para.find({'content':new RegExp(keywrd)},function(err,docs){
+          
+          if(!err)
+         { for(var i=0;i<docs.length;i++)
+          {
+          	console.log("rows "+docs[i].id);
+          	resStr=resStr+" "+docs[i].id;
+          }
+         res.send("<h4>keyword found in paras numbered </h4>"+resStr );
+         }
+          else
+          res.send("not found");
+	});
+
+   
+ });
 //set up http server using express
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
