@@ -1,0 +1,11 @@
+[2013-08-29 14:02:20,286][INFO ][node                     ] [Doctor Minerva?] version[0.90.3], pid[10676], build[5c38d60/2013-08-06T13:18:31Z]
+[2013-08-29 14:02:20,391][INFO ][node                     ] [Doctor Minerva?] initializing ...
+[2013-08-29 14:02:23,057][INFO ][plugins                  ] [Doctor Minerva?] loaded [mapper-attachments], sites []
+[2013-08-29 14:02:29,215][INFO ][node                     ] [Doctor Minerva?] initialized
+[2013-08-29 14:02:29,216][INFO ][node                     ] [Doctor Minerva?] starting ...
+[2013-08-29 14:02:29,696][INFO ][transport                ] [Doctor Minerva?] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.0.103:9300]}
+[2013-08-29 14:02:33,302][INFO ][cluster.service          ] [Doctor Minerva?] new_master [Doctor Minerva?][sNj9IzbXRKmAvTodNneICg][inet[/192.168.0.103:9300]], reason: zen-disco-join (elected_as_master)
+[2013-08-29 14:02:33,453][INFO ][discovery                ] [Doctor Minerva?] elasticsearch/sNj9IzbXRKmAvTodNneICg
+[2013-08-29 14:02:33,721][INFO ][http                     ] [Doctor Minerva?] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.0.103:9200]}
+[2013-08-29 14:02:33,722][INFO ][node                     ] [Doctor Minerva?] started
+[2013-08-29 14:02:35,177][INFO ][gateway                  ] [Doctor Minerva?] recovered [2] indices into cluster_state

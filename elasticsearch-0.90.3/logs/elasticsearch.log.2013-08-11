@@ -1,0 +1,1524 @@
+[2013-08-11 12:10:19,058][INFO ][node                     ] [Rl'nnd] version[0.90.3], pid[11660], build[5c38d60/2013-08-06T13:18:31Z]
+[2013-08-11 12:10:19,088][INFO ][node                     ] [Rl'nnd] initializing ...
+[2013-08-11 12:10:19,094][INFO ][plugins                  ] [Rl'nnd] loaded [], sites []
+[2013-08-11 12:10:23,336][INFO ][node                     ] [Rl'nnd] initialized
+[2013-08-11 12:10:23,336][INFO ][node                     ] [Rl'nnd] starting ...
+[2013-08-11 12:10:26,105][INFO ][transport                ] [Rl'nnd] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.0.104:9300]}
+[2013-08-11 12:10:30,151][INFO ][cluster.service          ] [Rl'nnd] new_master [Rl'nnd][zkkaE8ENS-6BLSd1UT7Tzw][inet[/192.168.0.104:9300]], reason: zen-disco-join (elected_as_master)
+[2013-08-11 12:10:30,191][INFO ][discovery                ] [Rl'nnd] elasticsearch/zkkaE8ENS-6BLSd1UT7Tzw
+[2013-08-11 12:10:30,300][INFO ][gateway                  ] [Rl'nnd] recovered [0] indices into cluster_state
+[2013-08-11 12:10:30,392][INFO ][http                     ] [Rl'nnd] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.0.104:9200]}
+[2013-08-11 12:10:30,393][INFO ][node                     ] [Rl'nnd] started
+[2013-08-11 12:44:55,170][INFO ][node                     ] [Sphinxor] version[0.90.3], pid[14612], build[5c38d60/2013-08-06T13:18:31Z]
+[2013-08-11 12:44:55,171][INFO ][node                     ] [Sphinxor] initializing ...
+[2013-08-11 12:44:55,190][INFO ][plugins                  ] [Sphinxor] loaded [mapper-attachments], sites []
+[2013-08-11 12:44:58,583][INFO ][node                     ] [Sphinxor] initialized
+[2013-08-11 12:44:58,584][INFO ][node                     ] [Sphinxor] starting ...
+[2013-08-11 12:44:58,896][INFO ][transport                ] [Sphinxor] bound_address {inet[/0:0:0:0:0:0:0:0:9301]}, publish_address {inet[/192.168.0.104:9301]}
+[2013-08-11 12:45:02,190][INFO ][cluster.service          ] [Rl'nnd] added {[Sphinxor][peei4-fVSoSAC8qoDIsPTg][inet[/192.168.0.104:9301]],}, reason: zen-disco-receive(join from node[[Sphinxor][peei4-fVSoSAC8qoDIsPTg][inet[/192.168.0.104:9301]]])
+[2013-08-11 12:45:02,205][INFO ][cluster.service          ] [Sphinxor] detected_master [Rl'nnd][zkkaE8ENS-6BLSd1UT7Tzw][inet[/192.168.0.104:9300]], added {[Rl'nnd][zkkaE8ENS-6BLSd1UT7Tzw][inet[/192.168.0.104:9300]],}, reason: zen-disco-receive(from master [[Rl'nnd][zkkaE8ENS-6BLSd1UT7Tzw][inet[/192.168.0.104:9300]]])
+[2013-08-11 12:45:02,233][INFO ][discovery                ] [Sphinxor] elasticsearch/peei4-fVSoSAC8qoDIsPTg
+[2013-08-11 12:45:02,365][INFO ][http                     ] [Sphinxor] bound_address {inet[/0:0:0:0:0:0:0:0:9201]}, publish_address {inet[/192.168.0.104:9201]}
+[2013-08-11 12:45:02,366][INFO ][node                     ] [Sphinxor] started
+[2013-08-11 12:45:18,854][INFO ][cluster.service          ] [Rl'nnd] removed {[Sphinxor][peei4-fVSoSAC8qoDIsPTg][inet[/192.168.0.104:9301]],}, reason: zen-disco-node_failed([Sphinxor][peei4-fVSoSAC8qoDIsPTg][inet[/192.168.0.104:9301]]), reason transport disconnected (with verified connect)
+[2013-08-11 12:46:09,246][INFO ][node                     ] [Gosamyr] version[0.90.3], pid[13408], build[5c38d60/2013-08-06T13:18:31Z]
+[2013-08-11 12:46:09,247][INFO ][node                     ] [Gosamyr] initializing ...
+[2013-08-11 12:46:09,264][INFO ][plugins                  ] [Gosamyr] loaded [mapper-attachments], sites []
+[2013-08-11 12:46:12,590][INFO ][node                     ] [Gosamyr] initialized
+[2013-08-11 12:46:12,590][INFO ][node                     ] [Gosamyr] starting ...
+[2013-08-11 12:46:12,805][INFO ][transport                ] [Gosamyr] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.0.104:9300]}
+[2013-08-11 12:46:16,017][INFO ][cluster.service          ] [Gosamyr] new_master [Gosamyr][aka5p8D6RHeyQdBtBp-2DQ][inet[/192.168.0.104:9300]], reason: zen-disco-join (elected_as_master)
+[2013-08-11 12:46:16,064][INFO ][discovery                ] [Gosamyr] elasticsearch/aka5p8D6RHeyQdBtBp-2DQ
+[2013-08-11 12:46:16,184][INFO ][gateway                  ] [Gosamyr] recovered [0] indices into cluster_state
+[2013-08-11 12:46:16,272][INFO ][http                     ] [Gosamyr] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.0.104:9200]}
+[2013-08-11 12:46:16,272][INFO ][node                     ] [Gosamyr] started
+[2013-08-11 12:55:32,133][INFO ][node                     ] [Plunderer] version[0.90.3], pid[10632], build[5c38d60/2013-08-06T13:18:31Z]
+[2013-08-11 12:55:32,134][INFO ][node                     ] [Plunderer] initializing ...
+[2013-08-11 12:55:32,155][INFO ][plugins                  ] [Plunderer] loaded [mapper-attachments], sites []
+[2013-08-11 12:55:35,785][INFO ][node                     ] [Plunderer] initialized
+[2013-08-11 12:55:35,785][INFO ][node                     ] [Plunderer] starting ...
+[2013-08-11 12:55:36,118][INFO ][transport                ] [Plunderer] bound_address {inet[/0:0:0:0:0:0:0:0:9301]}, publish_address {inet[/192.168.0.104:9301]}
+[2013-08-11 12:55:39,450][INFO ][cluster.service          ] [Gosamyr] added {[Plunderer][qwsDbYW7SlqW1WbgRe_w9Q][inet[/192.168.0.104:9301]],}, reason: zen-disco-receive(join from node[[Plunderer][qwsDbYW7SlqW1WbgRe_w9Q][inet[/192.168.0.104:9301]]])
+[2013-08-11 12:55:39,465][INFO ][cluster.service          ] [Plunderer] detected_master [Gosamyr][aka5p8D6RHeyQdBtBp-2DQ][inet[/192.168.0.104:9300]], added {[Gosamyr][aka5p8D6RHeyQdBtBp-2DQ][inet[/192.168.0.104:9300]],}, reason: zen-disco-receive(from master [[Gosamyr][aka5p8D6RHeyQdBtBp-2DQ][inet[/192.168.0.104:9300]]])
+[2013-08-11 12:55:39,490][INFO ][discovery                ] [Plunderer] elasticsearch/qwsDbYW7SlqW1WbgRe_w9Q
+[2013-08-11 12:55:39,631][INFO ][http                     ] [Plunderer] bound_address {inet[/0:0:0:0:0:0:0:0:9201]}, publish_address {inet[/192.168.0.104:9201]}
+[2013-08-11 12:55:39,631][INFO ][node                     ] [Plunderer] started
+[2013-08-11 12:55:55,188][INFO ][node                     ] [Plunderer] stopping ...
+[2013-08-11 12:55:55,202][INFO ][cluster.service          ] [Gosamyr] removed {[Plunderer][qwsDbYW7SlqW1WbgRe_w9Q][inet[/192.168.0.104:9301]],}, reason: zen-disco-node_left([Plunderer][qwsDbYW7SlqW1WbgRe_w9Q][inet[/192.168.0.104:9301]])
+[2013-08-11 12:55:55,226][INFO ][node                     ] [Plunderer] stopped
+[2013-08-11 12:55:55,226][INFO ][node                     ] [Plunderer] closing ...
+[2013-08-11 12:55:55,257][INFO ][node                     ] [Plunderer] closed
+[2013-08-11 13:10:40,397][INFO ][node                     ] [Black Widow] version[0.90.3], pid[8916], build[5c38d60/2013-08-06T13:18:31Z]
+[2013-08-11 13:10:40,398][INFO ][node                     ] [Black Widow] initializing ...
+[2013-08-11 13:10:40,417][INFO ][plugins                  ] [Black Widow] loaded [mapper-attachments], sites []
+[2013-08-11 13:10:43,738][INFO ][node                     ] [Black Widow] initialized
+[2013-08-11 13:10:43,739][INFO ][node                     ] [Black Widow] starting ...
+[2013-08-11 13:10:44,117][INFO ][transport                ] [Black Widow] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.0.104:9300]}
+[2013-08-11 13:10:47,371][INFO ][cluster.service          ] [Black Widow] new_master [Black Widow][E8y6FmZASSqbqf_wgTCPqg][inet[/192.168.0.104:9300]], reason: zen-disco-join (elected_as_master)
+[2013-08-11 13:10:47,411][INFO ][discovery                ] [Black Widow] elasticsearch/E8y6FmZASSqbqf_wgTCPqg
+[2013-08-11 13:10:47,447][INFO ][gateway                  ] [Black Widow] recovered [0] indices into cluster_state
+[2013-08-11 13:10:47,551][INFO ][http                     ] [Black Widow] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.0.104:9200]}
+[2013-08-11 13:10:47,551][INFO ][node                     ] [Black Widow] started
+[2013-08-11 13:23:52,333][INFO ][cluster.metadata         ] [Black Widow] [_river] creating index, cause [auto(index api)], shards [1]/[1], mappings []
+[2013-08-11 13:23:52,805][DEBUG][action.index             ] [Black Widow] [_river][0], node[E8y6FmZASSqbqf_wgTCPqg], [P], s[STARTED]: Failed to execute [index {[_river][mongodb][_meta], source['{]}]
+org.elasticsearch.index.mapper.MapperParsingException: failed to parse
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:554)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:451)
+	at org.elasticsearch.index.shard.service.InternalIndexShard.prepareIndex(InternalIndexShard.java:329)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:203)
+	at org.elasticsearch.action.support.replication.TransportShardReplicationOperationAction$AsyncShardOperationAction.performOnPrimary(TransportShardReplicationOperationAction.java:521)
+	at org.elasticsearch.action.support.replication.TransportShardReplicationOperationAction$AsyncShardOperationAction$1.run(TransportShardReplicationOperationAction.java:419)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.elasticsearch.common.jackson.core.JsonParseException: Unexpected character (''' (code 39)): expected a valid value (number, String, array, object, 'true', 'false' or 'null')
+ at [Source: [B@77bac550; line: 1, column: 2]
+	at org.elasticsearch.common.jackson.core.JsonParser._constructError(JsonParser.java:1369)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:599)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:520)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._handleUnexpectedValue(UTF8StreamJsonParser.java:2267)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._nextTokenNotInObject(UTF8StreamJsonParser.java:779)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:665)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:50)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:476)
+	... 8 more
+[2013-08-11 13:40:44,877][INFO ][node                     ] [Mammomax] version[0.90.3], pid[10464], build[5c38d60/2013-08-06T13:18:31Z]
+[2013-08-11 13:40:44,879][INFO ][node                     ] [Mammomax] initializing ...
+[2013-08-11 13:40:44,904][INFO ][plugins                  ] [Mammomax] loaded [mapper-attachments], sites []
+[2013-08-11 13:40:49,117][INFO ][node                     ] [Mammomax] initialized
+[2013-08-11 13:40:49,118][INFO ][node                     ] [Mammomax] starting ...
+[2013-08-11 13:40:49,689][INFO ][transport                ] [Mammomax] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.0.104:9300]}
+[2013-08-11 13:40:53,205][INFO ][cluster.service          ] [Mammomax] new_master [Mammomax][wjTiJThiR_WmJVuvlFSbKA][inet[/192.168.0.104:9300]], reason: zen-disco-join (elected_as_master)
+[2013-08-11 13:40:53,278][INFO ][discovery                ] [Mammomax] elasticsearch/wjTiJThiR_WmJVuvlFSbKA
+[2013-08-11 13:40:53,522][INFO ][http                     ] [Mammomax] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.0.104:9200]}
+[2013-08-11 13:40:53,522][INFO ][node                     ] [Mammomax] started
+[2013-08-11 13:40:53,962][INFO ][gateway                  ] [Mammomax] recovered [1] indices into cluster_state
+[2013-08-11 13:42:54,378][DEBUG][action.index             ] [Mammomax] [_river][0], node[wjTiJThiR_WmJVuvlFSbKA], [P], s[STARTED]: Failed to execute [index {[_river][mongodb][_meta], source['{]}]
+org.elasticsearch.index.mapper.MapperParsingException: failed to parse
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:554)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:451)
+	at org.elasticsearch.index.shard.service.InternalIndexShard.prepareIndex(InternalIndexShard.java:329)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:203)
+	at org.elasticsearch.action.support.replication.TransportShardReplicationOperationAction$AsyncShardOperationAction.performOnPrimary(TransportShardReplicationOperationAction.java:521)
+	at org.elasticsearch.action.support.replication.TransportShardReplicationOperationAction$AsyncShardOperationAction$1.run(TransportShardReplicationOperationAction.java:419)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.elasticsearch.common.jackson.core.JsonParseException: Unexpected character (''' (code 39)): expected a valid value (number, String, array, object, 'true', 'false' or 'null')
+ at [Source: [B@44e83db2; line: 1, column: 2]
+	at org.elasticsearch.common.jackson.core.JsonParser._constructError(JsonParser.java:1369)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:599)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:520)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._handleUnexpectedValue(UTF8StreamJsonParser.java:2267)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._nextTokenNotInObject(UTF8StreamJsonParser.java:779)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:665)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:50)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:476)
+	... 8 more
+[2013-08-11 14:08:38,277][DEBUG][action.index             ] [Mammomax] [_river][0], node[wjTiJThiR_WmJVuvlFSbKA], [P], s[STARTED]: Failed to execute [index {[_river][mongodb][_meta], source['{type:mongodb,mongodb:{db:tfidb,collection:paras},index:{name:x,type:para}}']}]
+org.elasticsearch.index.mapper.MapperParsingException: failed to parse
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:554)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:451)
+	at org.elasticsearch.index.shard.service.InternalIndexShard.prepareIndex(InternalIndexShard.java:329)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:203)
+	at org.elasticsearch.action.support.replication.TransportShardReplicationOperationAction$AsyncShardOperationAction.performOnPrimary(TransportShardReplicationOperationAction.java:521)
+	at org.elasticsearch.action.support.replication.TransportShardReplicationOperationAction$AsyncShardOperationAction$1.run(TransportShardReplicationOperationAction.java:419)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.elasticsearch.common.jackson.core.JsonParseException: Unexpected character (''' (code 39)): expected a valid value (number, String, array, object, 'true', 'false' or 'null')
+ at [Source: [B@63ed5b13; line: 1, column: 2]
+	at org.elasticsearch.common.jackson.core.JsonParser._constructError(JsonParser.java:1369)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:599)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:520)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._handleUnexpectedValue(UTF8StreamJsonParser.java:2267)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._nextTokenNotInObject(UTF8StreamJsonParser.java:779)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:665)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:50)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:476)
+	... 8 more
+[2013-08-11 14:10:49,318][DEBUG][action.index             ] [Mammomax] [_river][0], node[wjTiJThiR_WmJVuvlFSbKA], [P], s[STARTED]: Failed to execute [index {[_river][mongodb][_meta], source['{type:mongodb,mongodb:{db:tfidb,collection:paras},index:{name:x,type:para}}']}]
+org.elasticsearch.index.mapper.MapperParsingException: failed to parse
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:554)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:451)
+	at org.elasticsearch.index.shard.service.InternalIndexShard.prepareIndex(InternalIndexShard.java:329)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:203)
+	at org.elasticsearch.action.support.replication.TransportShardReplicationOperationAction$AsyncShardOperationAction.performOnPrimary(TransportShardReplicationOperationAction.java:521)
+	at org.elasticsearch.action.support.replication.TransportShardReplicationOperationAction$AsyncShardOperationAction$1.run(TransportShardReplicationOperationAction.java:419)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.elasticsearch.common.jackson.core.JsonParseException: Unexpected character (''' (code 39)): expected a valid value (number, String, array, object, 'true', 'false' or 'null')
+ at [Source: [B@53c1a5aa; line: 1, column: 2]
+	at org.elasticsearch.common.jackson.core.JsonParser._constructError(JsonParser.java:1369)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:599)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:520)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._handleUnexpectedValue(UTF8StreamJsonParser.java:2267)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._nextTokenNotInObject(UTF8StreamJsonParser.java:779)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:665)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:50)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:476)
+	... 8 more
+[2013-08-11 14:16:34,650][DEBUG][action.index             ] [Mammomax] [_river][0], node[wjTiJThiR_WmJVuvlFSbKA], [P], s[STARTED]: Failed to execute [index {[_river][mongodb][_meta], source['{]}]
+org.elasticsearch.index.mapper.MapperParsingException: failed to parse
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:554)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:451)
+	at org.elasticsearch.index.shard.service.InternalIndexShard.prepareIndex(InternalIndexShard.java:329)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:203)
+	at org.elasticsearch.action.support.replication.TransportShardReplicationOperationAction$AsyncShardOperationAction.performOnPrimary(TransportShardReplicationOperationAction.java:521)
+	at org.elasticsearch.action.support.replication.TransportShardReplicationOperationAction$AsyncShardOperationAction$1.run(TransportShardReplicationOperationAction.java:419)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.elasticsearch.common.jackson.core.JsonParseException: Unexpected character (''' (code 39)): expected a valid value (number, String, array, object, 'true', 'false' or 'null')
+ at [Source: [B@151418b5; line: 1, column: 2]
+	at org.elasticsearch.common.jackson.core.JsonParser._constructError(JsonParser.java:1369)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:599)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:520)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._handleUnexpectedValue(UTF8StreamJsonParser.java:2267)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._nextTokenNotInObject(UTF8StreamJsonParser.java:779)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:665)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:50)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:476)
+	... 8 more
+[2013-08-11 14:17:33,342][DEBUG][action.index             ] [Mammomax] [_river][0], node[wjTiJThiR_WmJVuvlFSbKA], [P], s[STARTED]: Failed to execute [index {[_river][mongodb][_meta], source[{ type: mongodb, mongodb: { db: tfidb, collection: paras},index: {name: mongoindex,type: para}}]}]
+org.elasticsearch.index.mapper.MapperParsingException: failed to parse
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:554)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:451)
+	at org.elasticsearch.index.shard.service.InternalIndexShard.prepareIndex(InternalIndexShard.java:329)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:203)
+	at org.elasticsearch.action.support.replication.TransportShardReplicationOperationAction$AsyncShardOperationAction.performOnPrimary(TransportShardReplicationOperationAction.java:521)
+	at org.elasticsearch.action.support.replication.TransportShardReplicationOperationAction$AsyncShardOperationAction$1.run(TransportShardReplicationOperationAction.java:419)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.elasticsearch.common.jackson.core.JsonParseException: Unexpected character ('m' (code 109)): expected a valid value (number, String, array, object, 'true', 'false' or 'null')
+ at [Source: [B@6bbdcbf3; line: 1, column: 10]
+	at org.elasticsearch.common.jackson.core.JsonParser._constructError(JsonParser.java:1369)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:599)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:520)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._handleUnexpectedValue(UTF8StreamJsonParser.java:2267)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:728)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:50)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:481)
+	... 8 more
+[2013-08-11 14:23:58,360][DEBUG][action.index             ] [Mammomax] [_river][0], node[wjTiJThiR_WmJVuvlFSbKA], [P], s[STARTED]: Failed to execute [index {[_river][mongodb][_meta], source[{ type: mongodb, mongodb: { db: tfidb, collection: paras},index: {name: mongoindex,type: string}}]}]
+org.elasticsearch.index.mapper.MapperParsingException: failed to parse
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:554)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:451)
+	at org.elasticsearch.index.shard.service.InternalIndexShard.prepareIndex(InternalIndexShard.java:329)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:203)
+	at org.elasticsearch.action.support.replication.TransportShardReplicationOperationAction$AsyncShardOperationAction.performOnPrimary(TransportShardReplicationOperationAction.java:521)
+	at org.elasticsearch.action.support.replication.TransportShardReplicationOperationAction$AsyncShardOperationAction$1.run(TransportShardReplicationOperationAction.java:419)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.elasticsearch.common.jackson.core.JsonParseException: Unexpected character ('m' (code 109)): expected a valid value (number, String, array, object, 'true', 'false' or 'null')
+ at [Source: [B@3215f3de; line: 1, column: 10]
+	at org.elasticsearch.common.jackson.core.JsonParser._constructError(JsonParser.java:1369)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:599)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:520)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._handleUnexpectedValue(UTF8StreamJsonParser.java:2267)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:728)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:50)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:481)
+	... 8 more
+[2013-08-11 16:02:27,926][INFO ][node                     ] [Oblivion] version[0.90.3], pid[15828], build[5c38d60/2013-08-06T13:18:31Z]
+[2013-08-11 16:02:27,944][INFO ][node                     ] [Oblivion] initializing ...
+[2013-08-11 16:02:27,961][INFO ][plugins                  ] [Oblivion] loaded [mapper-attachments], sites []
+[2013-08-11 16:02:31,330][INFO ][node                     ] [Oblivion] initialized
+[2013-08-11 16:02:31,331][INFO ][node                     ] [Oblivion] starting ...
+[2013-08-11 16:02:31,618][INFO ][transport                ] [Oblivion] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.0.104:9300]}
+[2013-08-11 16:02:34,935][INFO ][cluster.service          ] [Oblivion] new_master [Oblivion][nuS3Naf8S5OCl5KdWqbPtQ][inet[/192.168.0.104:9300]], reason: zen-disco-join (elected_as_master)
+[2013-08-11 16:02:34,984][INFO ][discovery                ] [Oblivion] elasticsearch/nuS3Naf8S5OCl5KdWqbPtQ
+[2013-08-11 16:02:35,149][INFO ][http                     ] [Oblivion] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.0.104:9200]}
+[2013-08-11 16:02:35,149][INFO ][node                     ] [Oblivion] started
+[2013-08-11 16:02:35,495][INFO ][gateway                  ] [Oblivion] recovered [1] indices into cluster_state
+[2013-08-11 16:04:20,805][DEBUG][action.admin.indices.create] [Oblivion] [tfiDB] failed to create
+org.elasticsearch.indices.InvalidIndexNameException: [tfiDB] Invalid index name [tfiDB], must be lowercase
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validate(MetaDataCreateIndexService.java:526)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.access$200(MetaDataCreateIndexService.java:86)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService$2.execute(MetaDataCreateIndexService.java:171)
+	at org.elasticsearch.cluster.service.InternalClusterService$UpdateTask.run(InternalClusterService.java:285)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:143)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+[2013-08-11 16:07:30,969][INFO ][cluster.metadata         ] [Oblivion] [tfidb] creating index, cause [auto(index api)], shards [5]/[1], mappings []
+[2013-08-11 16:07:31,430][INFO ][cluster.metadata         ] [Oblivion] [tfidb] update_mapping [para] (dynamic)
+[2013-08-11 16:10:02,450][DEBUG][action.search.type       ] [Oblivion] [tfidb][2], node[nuS3Naf8S5OCl5KdWqbPtQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@197115db]
+org.elasticsearch.search.SearchParseException: [tfidb][2]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"query_string":{"content":"fe"}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tfidb] [query_string] query does not support [content]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:189)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:254)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:565)
+	... 12 more
+[2013-08-11 16:10:02,450][DEBUG][action.search.type       ] [Oblivion] [tfidb][4], node[nuS3Naf8S5OCl5KdWqbPtQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@197115db]
+org.elasticsearch.search.SearchParseException: [tfidb][4]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"query_string":{"content":"fe"}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tfidb] [query_string] query does not support [content]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:189)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:254)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:565)
+	... 12 more
+[2013-08-11 16:10:02,450][DEBUG][action.search.type       ] [Oblivion] [tfidb][1], node[nuS3Naf8S5OCl5KdWqbPtQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@197115db]
+org.elasticsearch.search.SearchParseException: [tfidb][1]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"query_string":{"content":"fe"}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tfidb] [query_string] query does not support [content]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:189)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:254)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:565)
+	... 12 more
+[2013-08-11 16:10:02,450][DEBUG][action.search.type       ] [Oblivion] [tfidb][0], node[nuS3Naf8S5OCl5KdWqbPtQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@197115db]
+org.elasticsearch.search.SearchParseException: [tfidb][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"query_string":{"content":"fe"}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tfidb] [query_string] query does not support [content]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:189)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:254)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:565)
+	... 12 more
+[2013-08-11 16:10:02,450][DEBUG][action.search.type       ] [Oblivion] [tfidb][3], node[nuS3Naf8S5OCl5KdWqbPtQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@197115db]
+org.elasticsearch.search.SearchParseException: [tfidb][3]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"query_string":{"content":"fe"}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tfidb] [query_string] query does not support [content]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:189)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:254)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:565)
+	... 12 more
+[2013-08-11 16:13:25,590][DEBUG][action.search.type       ] [Oblivion] [tfidb][4], node[nuS3Naf8S5OCl5KdWqbPtQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@4ffc341f]
+org.elasticsearch.search.SearchParseException: [tfidb][4]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"query_string":{"content":"qwert"}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tfidb] [query_string] query does not support [content]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:189)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:254)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:565)
+	... 12 more
+[2013-08-11 16:13:25,596][DEBUG][action.search.type       ] [Oblivion] [tfidb][2], node[nuS3Naf8S5OCl5KdWqbPtQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@4ffc341f]
+org.elasticsearch.search.SearchParseException: [tfidb][2]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"query_string":{"content":"qwert"}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tfidb] [query_string] query does not support [content]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:189)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:254)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:565)
+	... 12 more
+[2013-08-11 16:13:25,596][DEBUG][action.search.type       ] [Oblivion] [tfidb][1], node[nuS3Naf8S5OCl5KdWqbPtQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@4ffc341f]
+org.elasticsearch.search.SearchParseException: [tfidb][1]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"query_string":{"content":"qwert"}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tfidb] [query_string] query does not support [content]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:189)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:254)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:565)
+	... 12 more
+[2013-08-11 16:13:25,593][DEBUG][action.search.type       ] [Oblivion] [tfidb][3], node[nuS3Naf8S5OCl5KdWqbPtQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@4ffc341f]
+org.elasticsearch.search.SearchParseException: [tfidb][3]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"query_string":{"content":"qwert"}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tfidb] [query_string] query does not support [content]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:189)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:254)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:565)
+	... 12 more
+[2013-08-11 16:13:25,597][DEBUG][action.search.type       ] [Oblivion] [tfidb][0], node[nuS3Naf8S5OCl5KdWqbPtQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@4ffc341f]
+org.elasticsearch.search.SearchParseException: [tfidb][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"query_string":{"content":"qwert"}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tfidb] [query_string] query does not support [content]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:189)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:254)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:565)
+	... 12 more
+[2013-08-11 16:19:22,207][DEBUG][action.search.type       ] [Oblivion] [tfidb][1], node[nuS3Naf8S5OCl5KdWqbPtQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@7101067b]
+org.elasticsearch.search.SearchParseException: [tfidb][1]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"query_string":{"content":{}}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tfidb] query_string must be provided with a [query]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:194)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:254)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:565)
+	... 12 more
+[2013-08-11 16:19:22,213][DEBUG][action.search.type       ] [Oblivion] [tfidb][0], node[nuS3Naf8S5OCl5KdWqbPtQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@7101067b]
+org.elasticsearch.search.SearchParseException: [tfidb][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"query_string":{"content":{}}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tfidb] query_string must be provided with a [query]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:194)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:254)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:565)
+	... 12 more
+[2013-08-11 16:19:22,207][DEBUG][action.search.type       ] [Oblivion] [tfidb][2], node[nuS3Naf8S5OCl5KdWqbPtQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@7101067b]
+org.elasticsearch.search.SearchParseException: [tfidb][2]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"query_string":{"content":{}}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tfidb] query_string must be provided with a [query]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:194)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:254)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:565)
+	... 12 more
+[2013-08-11 16:19:22,212][DEBUG][action.search.type       ] [Oblivion] [tfidb][3], node[nuS3Naf8S5OCl5KdWqbPtQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@7101067b]
+org.elasticsearch.search.SearchParseException: [tfidb][3]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"query_string":{"content":{}}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tfidb] query_string must be provided with a [query]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:194)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:254)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:565)
+	... 12 more
+[2013-08-11 16:19:22,212][DEBUG][action.search.type       ] [Oblivion] [tfidb][4], node[nuS3Naf8S5OCl5KdWqbPtQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@7101067b]
+org.elasticsearch.search.SearchParseException: [tfidb][4]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"query_string":{"content":{}}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tfidb] query_string must be provided with a [query]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:194)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:254)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:565)
+	... 12 more
+[2013-08-11 16:36:49,535][DEBUG][action.search.type       ] [Oblivion] [tfidb][3], node[nuS3Naf8S5OCl5KdWqbPtQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@6995d6ee]
+org.elasticsearch.search.SearchParseException: [tfidb][3]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"query_string":{"content":{}}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tfidb] query_string must be provided with a [query]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:194)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:254)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:565)
+	... 12 more
+[2013-08-11 16:36:49,538][DEBUG][action.search.type       ] [Oblivion] [tfidb][2], node[nuS3Naf8S5OCl5KdWqbPtQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@6995d6ee]
+org.elasticsearch.search.SearchParseException: [tfidb][2]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"query_string":{"content":{}}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tfidb] query_string must be provided with a [query]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:194)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:254)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:565)
+	... 12 more
+[2013-08-11 16:36:49,535][DEBUG][action.search.type       ] [Oblivion] [tfidb][4], node[nuS3Naf8S5OCl5KdWqbPtQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@6995d6ee]
+org.elasticsearch.search.SearchParseException: [tfidb][4]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"query_string":{"content":{}}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tfidb] query_string must be provided with a [query]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:194)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:254)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:565)
+	... 12 more
+[2013-08-11 16:36:49,539][DEBUG][action.search.type       ] [Oblivion] [tfidb][0], node[nuS3Naf8S5OCl5KdWqbPtQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@6995d6ee]
+org.elasticsearch.search.SearchParseException: [tfidb][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"query_string":{"content":{}}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tfidb] query_string must be provided with a [query]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:194)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:254)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:565)
+	... 12 more
+[2013-08-11 16:36:49,539][DEBUG][action.search.type       ] [Oblivion] [tfidb][1], node[nuS3Naf8S5OCl5KdWqbPtQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@6995d6ee]
+org.elasticsearch.search.SearchParseException: [tfidb][1]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"query_string":{"content":{}}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tfidb] query_string must be provided with a [query]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:194)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:254)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:565)
+	... 12 more
+[2013-08-11 16:37:36,048][DEBUG][action.search.type       ] [Oblivion] [tfidb][4], node[nuS3Naf8S5OCl5KdWqbPtQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@37e497b2]
+org.elasticsearch.search.SearchParseException: [tfidb][4]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"query_string":{"content":"hw"}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tfidb] [query_string] query does not support [content]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:189)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:254)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:565)
+	... 12 more
+[2013-08-11 16:37:36,049][DEBUG][action.search.type       ] [Oblivion] [tfidb][0], node[nuS3Naf8S5OCl5KdWqbPtQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@37e497b2]
+org.elasticsearch.search.SearchParseException: [tfidb][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"query_string":{"content":"hw"}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tfidb] [query_string] query does not support [content]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:189)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:254)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:565)
+	... 12 more
+[2013-08-11 16:37:36,049][DEBUG][action.search.type       ] [Oblivion] [tfidb][1], node[nuS3Naf8S5OCl5KdWqbPtQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@37e497b2]
+org.elasticsearch.search.SearchParseException: [tfidb][1]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"query_string":{"content":"hw"}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tfidb] [query_string] query does not support [content]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:189)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:254)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:565)
+	... 12 more
+[2013-08-11 16:37:36,048][DEBUG][action.search.type       ] [Oblivion] [tfidb][2], node[nuS3Naf8S5OCl5KdWqbPtQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@37e497b2]
+org.elasticsearch.search.SearchParseException: [tfidb][2]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"query_string":{"content":"hw"}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tfidb] [query_string] query does not support [content]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:189)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:254)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:565)
+	... 12 more
+[2013-08-11 16:37:36,048][DEBUG][action.search.type       ] [Oblivion] [tfidb][3], node[nuS3Naf8S5OCl5KdWqbPtQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@37e497b2]
+org.elasticsearch.search.SearchParseException: [tfidb][3]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"query_string":{"content":"hw"}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tfidb] [query_string] query does not support [content]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:189)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:254)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:565)
+	... 12 more
+[2013-08-11 16:38:07,066][DEBUG][action.search.type       ] [Oblivion] [tfidb][3], node[nuS3Naf8S5OCl5KdWqbPtQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@3f01a76a]
+org.elasticsearch.search.SearchParseException: [tfidb][3]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"query_string":{"content":"hw"}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tfidb] [query_string] query does not support [content]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:189)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:254)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:565)
+	... 12 more
+[2013-08-11 16:38:07,067][DEBUG][action.search.type       ] [Oblivion] [tfidb][1], node[nuS3Naf8S5OCl5KdWqbPtQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@3f01a76a]
+org.elasticsearch.search.SearchParseException: [tfidb][1]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"query_string":{"content":"hw"}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tfidb] [query_string] query does not support [content]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:189)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:254)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:565)
+	... 12 more
+[2013-08-11 16:38:07,066][DEBUG][action.search.type       ] [Oblivion] [tfidb][0], node[nuS3Naf8S5OCl5KdWqbPtQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@3f01a76a]
+org.elasticsearch.search.SearchParseException: [tfidb][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"query_string":{"content":"hw"}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tfidb] [query_string] query does not support [content]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:189)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:254)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:565)
+	... 12 more
+[2013-08-11 16:38:07,066][DEBUG][action.search.type       ] [Oblivion] [tfidb][2], node[nuS3Naf8S5OCl5KdWqbPtQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@3f01a76a]
+org.elasticsearch.search.SearchParseException: [tfidb][2]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"query_string":{"content":"hw"}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tfidb] [query_string] query does not support [content]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:189)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:254)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:565)
+	... 12 more
+[2013-08-11 16:38:07,066][DEBUG][action.search.type       ] [Oblivion] [tfidb][4], node[nuS3Naf8S5OCl5KdWqbPtQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@3f01a76a]
+org.elasticsearch.search.SearchParseException: [tfidb][4]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"query_string":{"content":"hw"}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tfidb] [query_string] query does not support [content]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:189)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:254)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:565)
+	... 12 more
+[2013-08-11 16:55:18,636][DEBUG][action.search.type       ] [Oblivion] [tfidb][3], node[nuS3Naf8S5OCl5KdWqbPtQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@564a4d2c]
+org.elasticsearch.search.SearchParseException: [tfidb][3]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"query_string":{"content":"try"}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tfidb] [query_string] query does not support [content]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:189)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:254)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:565)
+	... 12 more
+[2013-08-11 16:55:18,636][DEBUG][action.search.type       ] [Oblivion] [tfidb][0], node[nuS3Naf8S5OCl5KdWqbPtQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@564a4d2c]
+org.elasticsearch.search.SearchParseException: [tfidb][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"query_string":{"content":"try"}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tfidb] [query_string] query does not support [content]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:189)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:254)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:565)
+	... 12 more
+[2013-08-11 16:55:18,636][DEBUG][action.search.type       ] [Oblivion] [tfidb][1], node[nuS3Naf8S5OCl5KdWqbPtQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@564a4d2c]
+org.elasticsearch.search.SearchParseException: [tfidb][1]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"query_string":{"content":"try"}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tfidb] [query_string] query does not support [content]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:189)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:254)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:565)
+	... 12 more
+[2013-08-11 16:55:18,636][DEBUG][action.search.type       ] [Oblivion] [tfidb][2], node[nuS3Naf8S5OCl5KdWqbPtQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@564a4d2c]
+org.elasticsearch.search.SearchParseException: [tfidb][2]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"query_string":{"content":"try"}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tfidb] [query_string] query does not support [content]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:189)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:254)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:565)
+	... 12 more
+[2013-08-11 16:55:18,636][DEBUG][action.search.type       ] [Oblivion] [tfidb][4], node[nuS3Naf8S5OCl5KdWqbPtQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@564a4d2c]
+org.elasticsearch.search.SearchParseException: [tfidb][4]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"query_string":{"content":"try"}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tfidb] [query_string] query does not support [content]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:189)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:254)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:565)
+	... 12 more
+[2013-08-11 16:55:18,679][INFO ][cluster.metadata         ] [Oblivion] [tfidb] update_mapping [paras] (dynamic)
+[2013-08-11 17:20:32,755][DEBUG][action.search.type       ] [Oblivion] [tfidb][4], node[nuS3Naf8S5OCl5KdWqbPtQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@1b798800]
+org.elasticsearch.search.SearchParseException: [tfidb][4]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"query_string":{"content":"tired"}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tfidb] [query_string] query does not support [content]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:189)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:254)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:565)
+	... 12 more
+[2013-08-11 17:20:32,781][DEBUG][action.search.type       ] [Oblivion] [tfidb][1], node[nuS3Naf8S5OCl5KdWqbPtQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@1b798800]
+org.elasticsearch.search.SearchParseException: [tfidb][1]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"query_string":{"content":"tired"}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tfidb] [query_string] query does not support [content]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:189)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:254)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:565)
+	... 12 more
+[2013-08-11 17:20:32,778][DEBUG][action.search.type       ] [Oblivion] [tfidb][2], node[nuS3Naf8S5OCl5KdWqbPtQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@1b798800]
+org.elasticsearch.search.SearchParseException: [tfidb][2]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"query_string":{"content":"tired"}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tfidb] [query_string] query does not support [content]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:189)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:254)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:565)
+	... 12 more
+[2013-08-11 17:20:32,774][DEBUG][action.search.type       ] [Oblivion] [tfidb][3], node[nuS3Naf8S5OCl5KdWqbPtQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@1b798800]
+org.elasticsearch.search.SearchParseException: [tfidb][3]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"query_string":{"content":"tired"}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tfidb] [query_string] query does not support [content]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:189)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:254)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:565)
+	... 12 more
+[2013-08-11 17:20:32,784][DEBUG][action.search.type       ] [Oblivion] [tfidb][0], node[nuS3Naf8S5OCl5KdWqbPtQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@1b798800]
+org.elasticsearch.search.SearchParseException: [tfidb][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"query_string":{"content":"tired"}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tfidb] [query_string] query does not support [content]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:189)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:254)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:565)
+	... 12 more
+[2013-08-11 17:29:35,359][DEBUG][action.search.type       ] [Oblivion] [tfidb][2], node[nuS3Naf8S5OCl5KdWqbPtQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@5a77b6d6]
+org.elasticsearch.search.SearchParseException: [tfidb][2]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"query_string":{"query":""}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tfidb] Failed to parse query []
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:227)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:254)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:565)
+	... 12 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '': Encountered "<EOF>" at line 1, column 0.
+Was expecting one of:
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    <TERM> ...
+    "*" ...
+    
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:126)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:213)
+	... 17 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Encountered "<EOF>" at line 1, column 0.
+Was expecting one of:
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    <TERM> ...
+    "*" ...
+    
+	at org.apache.lucene.queryparser.classic.QueryParser.generateParseException(QueryParser.java:708)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_consume_token(QueryParser.java:590)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:275)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:181)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:170)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:121)
+	... 18 more
+[2013-08-11 17:29:35,361][DEBUG][action.search.type       ] [Oblivion] [tfidb][4], node[nuS3Naf8S5OCl5KdWqbPtQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@5a77b6d6]
+org.elasticsearch.search.SearchParseException: [tfidb][4]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"query_string":{"query":""}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tfidb] Failed to parse query []
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:227)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:254)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:565)
+	... 12 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '': Encountered "<EOF>" at line 1, column 0.
+Was expecting one of:
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    <TERM> ...
+    "*" ...
+    
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:126)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:213)
+	... 17 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Encountered "<EOF>" at line 1, column 0.
+Was expecting one of:
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    <TERM> ...
+    "*" ...
+    
+	at org.apache.lucene.queryparser.classic.QueryParser.generateParseException(QueryParser.java:708)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_consume_token(QueryParser.java:590)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:275)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:181)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:170)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:121)
+	... 18 more
+[2013-08-11 17:29:35,360][DEBUG][action.search.type       ] [Oblivion] [tfidb][0], node[nuS3Naf8S5OCl5KdWqbPtQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@5a77b6d6]
+org.elasticsearch.search.SearchParseException: [tfidb][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"query_string":{"query":""}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tfidb] Failed to parse query []
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:227)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:254)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:565)
+	... 12 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '': Encountered "<EOF>" at line 1, column 0.
+Was expecting one of:
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    <TERM> ...
+    "*" ...
+    
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:126)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:213)
+	... 17 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Encountered "<EOF>" at line 1, column 0.
+Was expecting one of:
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    <TERM> ...
+    "*" ...
+    
+	at org.apache.lucene.queryparser.classic.QueryParser.generateParseException(QueryParser.java:708)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_consume_token(QueryParser.java:590)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:275)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:181)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:170)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:121)
+	... 18 more
+[2013-08-11 17:29:35,360][DEBUG][action.search.type       ] [Oblivion] [tfidb][3], node[nuS3Naf8S5OCl5KdWqbPtQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@5a77b6d6]
+org.elasticsearch.search.SearchParseException: [tfidb][3]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"query_string":{"query":""}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tfidb] Failed to parse query []
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:227)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:254)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:565)
+	... 12 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '': Encountered "<EOF>" at line 1, column 0.
+Was expecting one of:
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    <TERM> ...
+    "*" ...
+    
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:126)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:213)
+	... 17 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Encountered "<EOF>" at line 1, column 0.
+Was expecting one of:
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    <TERM> ...
+    "*" ...
+    
+	at org.apache.lucene.queryparser.classic.QueryParser.generateParseException(QueryParser.java:708)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_consume_token(QueryParser.java:590)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:275)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:181)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:170)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:121)
+	... 18 more
+[2013-08-11 17:29:35,359][DEBUG][action.search.type       ] [Oblivion] [tfidb][1], node[nuS3Naf8S5OCl5KdWqbPtQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@5a77b6d6]
+org.elasticsearch.search.SearchParseException: [tfidb][1]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"query_string":{"query":""}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:577)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:473)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:466)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:238)
+	at org.elasticsearch.search.action.SearchServiceTransportAction.sendExecuteQuery(SearchServiceTransportAction.java:141)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.sendExecuteFirstPhase(TransportSearchQueryThenFetchAction.java:80)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:212)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.performFirstPhase(TransportSearchTypeAction.java:199)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$2.run(TransportSearchTypeAction.java:185)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tfidb] Failed to parse query []
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:227)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:202)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:254)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:565)
+	... 12 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '': Encountered "<EOF>" at line 1, column 0.
+Was expecting one of:
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    <TERM> ...
+    "*" ...
+    
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:126)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:213)
+	... 17 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Encountered "<EOF>" at line 1, column 0.
+Was expecting one of:
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    <TERM> ...
+    "*" ...
+    
+	at org.apache.lucene.queryparser.classic.QueryParser.generateParseException(QueryParser.java:708)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_consume_token(QueryParser.java:590)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:275)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:181)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:170)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:121)
+	... 18 more

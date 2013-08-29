@@ -36,7 +36,7 @@
 </editorArea>
 <editor activePart="true" focus="true" id="com.aptana.editor.js" name="app.js" partName="app.js" title="app.js" tooltip="C:\Program Files\nodejs\tfiApp\app.js" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/C:/Program%20Files/nodejs/tfiApp/app.js"/>
-<editorState selectionHorizontalPixel="0" selectionLength="3349" selectionOffset="0" selectionTopPixel="1417"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4195" selectionTopPixel="1685"/>
 </editor>
 <editor id="org.eclipse.ui.DefaultTextEditor" name="searchpg.jade" partName="searchpg.jade" title="searchpg.jade" tooltip="C:\Program Files\nodejs\tfiApp\views\searchpg.jade" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/C:/Program%20Files/nodejs/tfiApp/views/searchpg.jade"/>
@@ -174,85 +174,8 @@
 <navigationHistory>
 <editors>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.js" uri="file:/C:/Program%20Files/nodejs/tfiApp/app.js"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" uri="file:/C:/Program%20Files/nodejs/tfiApp/views/searchpg.jade"/>
 </editors>
-<item historyLabel="app.js" index="0">
-<position/>
-</item>
-<item historyLabel="app.js" index="0">
-<position/>
-</item>
-<item historyLabel="app.js" index="0">
-<position info="not_deleted" x="2577" y="0"/>
-</item>
-<item historyLabel="app.js" index="0">
-<position info="not_deleted" x="3160" y="0"/>
-</item>
-<item historyLabel="app.js" index="0">
-<position info="not_deleted" x="3160" y="0"/>
-</item>
-<item historyLabel="app.js" index="0">
-<position info="not_deleted" x="2812" y="0"/>
-</item>
-<item historyLabel="app.js" index="0">
-<position info="not_deleted" x="2831" y="0"/>
-</item>
-<item historyLabel="app.js" index="0">
-<position info="not_deleted" x="3159" y="0"/>
-</item>
-<item historyLabel="app.js" index="0">
-<position info="not_deleted" x="3156" y="0"/>
-</item>
-<item historyLabel="app.js" index="0">
-<position info="not_deleted" x="3156" y="0"/>
-</item>
-<item historyLabel="app.js" index="0">
-<position/>
-</item>
-<item historyLabel="app.js" index="0">
-<position info="not_deleted" x="2616" y="0"/>
-</item>
-<item historyLabel="app.js" index="0">
-<position/>
-</item>
-<item historyLabel="app.js" index="0">
-<position/>
-</item>
-<item historyLabel="app.js" index="0">
-<position/>
-</item>
-<item historyLabel="app.js" index="0">
-<position/>
-</item>
-<item historyLabel="app.js" index="0">
-<position/>
-</item>
-<item historyLabel="app.js" index="0">
-<position/>
-</item>
-<item historyLabel="app.js" index="0">
-<position/>
-</item>
-<item historyLabel="app.js" index="0">
-<position/>
-</item>
-<item historyLabel="app.js" index="0">
-<position/>
-</item>
-<item historyLabel="app.js" index="0">
-<position/>
-</item>
-<item historyLabel="app.js" index="0">
-<position/>
-</item>
-<item historyLabel="app.js" index="0">
-<position/>
-</item>
-<item historyLabel="app.js" index="0">
-<position/>
-</item>
-<item historyLabel="app.js" index="0">
-<position/>
-</item>
 <item historyLabel="app.js" index="0">
 <position/>
 </item>
@@ -322,8 +245,86 @@
 <item historyLabel="app.js" index="0">
 <position info="not_deleted" x="2960" y="0"/>
 </item>
-<item active="true" historyLabel="app.js" index="0">
+<item historyLabel="app.js" index="0">
 <position info="not_deleted" x="2706" y="0"/>
+</item>
+<item historyLabel="app.js" index="0">
+<position info="not_deleted" x="1283" y="0"/>
+</item>
+<item historyLabel="app.js" index="0">
+<position/>
+</item>
+<item historyLabel="app.js" index="0">
+<position/>
+</item>
+<item historyLabel="app.js" index="0">
+<position info="not_deleted" x="1754" y="0"/>
+</item>
+<item historyLabel="app.js" index="0">
+<position/>
+</item>
+<item historyLabel="app.js" index="0">
+<position/>
+</item>
+<item historyLabel="app.js" index="0">
+<position info="not_deleted" x="508" y="0"/>
+</item>
+<item historyLabel="app.js" index="0">
+<position/>
+</item>
+<item historyLabel="app.js" index="0">
+<position/>
+</item>
+<item historyLabel="app.js" index="0">
+<position/>
+</item>
+<item historyLabel="app.js" index="0">
+<position info="not_deleted" x="3729" y="0"/>
+</item>
+<item historyLabel="app.js" index="0">
+<position/>
+</item>
+<item historyLabel="app.js" index="0">
+<position/>
+</item>
+<item historyLabel="app.js" index="0">
+<position/>
+</item>
+<item historyLabel="app.js" index="0">
+<position info="not_deleted" x="3298" y="0"/>
+</item>
+<item historyLabel="app.js" index="0">
+<position/>
+</item>
+<item historyLabel="app.js" index="0">
+<position/>
+</item>
+<item historyLabel="app.js" index="0">
+<position/>
+</item>
+<item historyLabel="searchpg.jade" index="1">
+<position info="not_deleted" x="192" y="0"/>
+</item>
+<item historyLabel="app.js" index="0">
+<position info="not_deleted" x="3032" y="0"/>
+</item>
+<item historyLabel="searchpg.jade" index="1">
+<position info="not_deleted" x="192" y="0"/>
+</item>
+<item historyLabel="app.js" index="0">
+<position info="not_deleted" x="3032" y="0"/>
+</item>
+<item historyLabel="searchpg.jade" index="1">
+<position info="not_deleted" x="192" y="0"/>
+</item>
+<item historyLabel="app.js" index="0">
+<position/>
+</item>
+<item historyLabel="searchpg.jade" index="1">
+<position info="not_deleted" x="192" y="0"/>
+</item>
+<item active="true" historyLabel="app.js" index="0">
+<position/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
